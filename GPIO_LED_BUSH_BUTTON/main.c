@@ -1,4 +1,4 @@
-//*********************************** Série STM32F407VG avec Keil IDE **********************************
+//*********************************** Série STM32F407VG avec Keil IDE version 1 **********************************
 // Nom : DGHIM
 // Prénom : Oussama
 // Niveau d'étude : 3ème année ingénieur en électronique et systèmes embarqués à l'ISIMM
