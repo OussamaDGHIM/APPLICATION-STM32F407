@@ -1,16 +1,22 @@
 //*********************************** Série STM32F407VG avec Keil IDE version 1 **********************************
-// Nom : DGHIM
-// Prénom : Oussama
-// Niveau d'étude : 3ème année ingénieur en électronique et systèmes embarqués à l'ISIMM
-// ******** Application : L'objectif de mon application est de créer une application simple
-// qui permet d'allumer une LED à travers un bouton implémenté sur STM32F407 sans utiliser la bibliothèque ni l'outil de configuration automatique
-// fourni par la société ST, CubeMX.
-// ******** Informations extraites à partir des documents : 
-// LED PD13 OUTPUT port D pin 13 color orange
-// User button PA0 INPUT PORT A pin 0
-// RCC adresse : 0x4002 3800 - 0x4002 3BFF
-// GPIOD adresse : 0x4002 0C00 - 0x4002 0FFF
-// GPIOA adresse : 0x4002 0000 - 0x4002 03FF
+/*
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   Nom : DGHIM
+   Prénom : Oussama
+   Niveau d'étude : 3ème année ingénieur en électronique et systèmes embarqués à l'ISIMM
+	 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	 
+   ** Application : L'objectif de mon application est de créer une application simple
+   qui permet d'allumer une LED à travers un bouton implémenté sur STM32F407 sans utiliser la bibliothèque ni l'outil de configuration automatique
+   fourni par la société ST, CubeMX.
+	 
+   ** Informations extraites à partir des documents : 
+   LED PD13 OUTPUT port D pin 13 color orange
+   User button PA0 INPUT PORT A pin 0
+   RCC adresse : 0x4002 3800 - 0x4002 3BFF
+   GPIOD adresse : 0x4002 0C00 - 0x4002 0FFF
+   GPIOA adresse : 0x4002 0000 - 0x4002 03FF
+*/
 void GPIO_PD13_AND_BUTTON_Configuration();
 int main(void)
 {
